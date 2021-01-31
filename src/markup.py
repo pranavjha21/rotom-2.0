@@ -3,10 +3,10 @@ from pyrogram import InlineKeyboardMarkup, InlineKeyboardButton
 
 def data_markup(pkmn, expanded):
     if expanded:
-        first_button_text = "➖ Reduce"
+        first_button_text = "close😊"
         first_button_callback_data = "infos/0/" + pkmn
     else:
-        first_button_text = "➕ Expand"
+        first_button_text = "open😉😀"
         first_button_callback_data = "infos/1/" + pkmn
     return InlineKeyboardMarkup([[
         InlineKeyboardButton(
